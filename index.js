@@ -2,6 +2,7 @@
 const { MongoClient, MongoServerError } = require("mongodb");
 
 const customers = [
+    // "mongodb://ZZZZZZ:YYYYYYY@XXX-XXX-XXXXXXX.mongodb.net:PORT/CUSTOMERCODE-ENVIROMENT?retryWrites=boolean&ssl=boolean"
 ];
 
 const dbCollection = "servers";
