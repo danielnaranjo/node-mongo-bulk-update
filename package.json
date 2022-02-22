@@ -1,10 +1,11 @@
 {
-  "name": "node-express-mongo",
+  "name": "node-mongo",
   "version": "1.0.0",
-  "description": "Execute queries to Mongo DB",
+  "description": "Execute bulk queries to Mongo DB from customers array",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Daniel Naranjo",
   "license": "MIT",
