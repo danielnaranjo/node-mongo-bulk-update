@@ -1,0 +1,14 @@
+{
+  "name": "node-express-mongo",
+  "version": "1.0.0",
+  "description": "Execute queries to Mongo DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Naranjo",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^4.4.0"
+  }
+}
