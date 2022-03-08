@@ -1,10 +1,6 @@
 #!/usr/bin/env node
-const { MongoClient, MongoServerError } = require("mongodb");
-
-const customers = [
-    // "mongodb://ZZZZZZ:YYYYYYY@XXX-XXX-XXXXXXX.mongodb.net:PORT/CUSTOMERCODE-ENVIROMENT?retryWrites=boolean&ssl=boolean"
-];
-
+const CustomersDatabases = require('./customers.json');
+const customers = CustomersDatabases;
 const dbCollection = "servers";
 
 const getDatabase = (values) => {
